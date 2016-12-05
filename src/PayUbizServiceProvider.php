@@ -27,6 +27,9 @@ class PayUbizServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        $this->publishes([
+            __DIR__.'/config/payubiz.php' => config_path('payubiz.php')
+        ], 'config');
     }
 
     /**
