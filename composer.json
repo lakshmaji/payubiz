@@ -2,7 +2,7 @@
     "name": "lakshmajim/payubiz",
     "description": "payubiz",
     "keywords": [
-        "Payubiz", "Laravel", "composer"
+        "Payubiz", "Laravel", "composer", "Payment Gateway", "Integrations"
     ],
     "require": {
         "symfony/http-foundation": "~2.6|~3.0"
