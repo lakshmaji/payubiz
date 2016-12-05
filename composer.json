@@ -1,0 +1,23 @@
+{
+    "name": "lakshmajim/payubiz",
+    "description": "payubiz",
+    "keywords": [
+        "Payubiz", "Laravel", "composer"
+    ],
+    "require": {
+        "symfony/http-foundation": "~2.6|~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lakshmajim\\PayUbiz\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lakshmajim",
+            "email": ""
+        }
+    ],
+    "minimum-stability": "dev"
+}
