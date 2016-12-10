@@ -27,7 +27,7 @@
  ```bash
    composer update
  ```
-- Pusblish configuration files
+- Publish configuration files
 ```bash
    php artisan vendor:publish
 ```
