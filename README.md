@@ -24,11 +24,36 @@
         'PayUbiz' => Lakshmajim\PayUbiz\Facade\PayUbiz::class,
 ```
 - Try updating the application with composer (dependencies)
-    ```bash
-    composer update
-    ```
----
+ ```bash
+   composer update
+ ```
+- Pusblish configuration files
+```bash
+   php artisan vendor:publish
+```
+ 
+- Populate config/payubiz.php with credentials and enable production mode.
+```bash
+return [
 
+    /*
+    |--------------------------------------------------------------------------
+    | PayUbiz Authentication Secret
+    |--------------------------------------------------------------------------
+    |
+    | Don't forget to set this.
+    |
+    */
+
+    'merchant_id' => 'gtSsEw',
+
+    'secret_key'  => 'eRyshYFb',
+    
+    'test_mode'   => true
+];
+```
+
+---
 >### Integrating PayUbiz services with the application
 
 The following example illustrates the usage of PayUbiz package
