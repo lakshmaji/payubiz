@@ -1,6 +1,6 @@
 <?php
 
-namespace Lakshmajim\PayUbiz;
+namespace Lakshmaji\PayUbiz;
 
 /*
 |--------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 <?php 
 
-namespace Lakshmajim\PayUbiz\Facade;
+namespace Lakshmaji\PayUbiz\Facade;
  
 use Illuminate\Support\Facades\Facade;
  

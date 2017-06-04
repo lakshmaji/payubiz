@@ -1,5 +1,5 @@
 {
-    "name": "lakshmajim/payubiz",
+    "name": "lakshmaji/payubiz",
     "description": "payubiz",
     "keywords": [
         "Payubiz", "Laravel", "composer", "Payment Gateway", "Integrations"
@@ -9,13 +9,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Lakshmajim\\PayUbiz\\": "src/"
+            "Lakshmaji\\PayUbiz\\": "src/"
         }
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "lakshmajim",
+            "name": "lakshmaji",
             "email": ""
         }
     ],

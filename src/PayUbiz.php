@@ -7,7 +7,7 @@
 |
 */
 
-namespace Lakshmajim\PayUbiz;
+namespace Lakshmaji\PayUbiz;
 
 use Symfony\Component\HttpFoundation\Response;
 use Config;
