@@ -13,15 +13,15 @@
 
 - This package is available on packagist and we can simply download it by issuing the following command on terminal within the project root directory.
 ```bash
-    composer require lakshmajim/payubiz
+    composer require lakshmaji/payubiz
 ```
 - Add the Service Provider to **providers** array
 ```php
-        Lakshmajim\PayUbiz\PayUbizServiceProvider::class,
+        Lakshmaji\PayUbiz\PayUbizServiceProvider::class,
 ```
 - Add the Facade to **aliases** array
 ```php
-        'PayUbiz' => Lakshmajim\PayUbiz\Facade\PayUbiz::class,
+        'PayUbiz' => Lakshmaji\PayUbiz\Facade\PayUbiz::class,
 ```
 - Try updating the application with composer (dependencies)
  ```bash
@@ -77,7 +77,7 @@ use Trending\Http\Controllers\Controller;
  *
  * @since    1.0.0
  * @version  1.0.0
- * @author   lakshmajim 
+ * @author   lakshmaji 
  */
 class PayUbizTest extends AnotherClass
 {
